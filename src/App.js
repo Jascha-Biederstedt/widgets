@@ -16,6 +16,8 @@ const items = [
   },
 ];
 
-export default () => {
+const App = () => {
   return <Accordion items={items} />;
 };
+
+export default App;
