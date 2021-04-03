@@ -1,4 +1,3 @@
-import config from '../config';
 import React, { useState } from 'react';
 import Dropdown from './Dropdown';
 import Convert from './Convert';
@@ -15,6 +14,14 @@ const options = [
   {
     label: 'Hindi',
     value: 'hi',
+  },
+  {
+    label: 'Spanish',
+    value: 'es',
+  },
+  {
+    label: 'German',
+    value: 'de',
   },
 ];
 
